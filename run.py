@@ -10,7 +10,11 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
+
+# Suppress tokenizers parallelism warning
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 from dotenv import load_dotenv
 
