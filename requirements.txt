@@ -1,0 +1,22 @@
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-groq>=0.0.1
+langchain-community>=0.0.1
+
+# Embeddings and ML
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+rank_bm25>=0.2.2
+
+# PDF processing
+pdfplumber>=0.10.0
+
+# Web interface
+gradio>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0
+
+# Testing
+pytest>=7.0.0
